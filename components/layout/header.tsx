@@ -1,3 +1,4 @@
+
 export function Header() {
   return (
     <header className="bg-gray-900 text-white py-4">
@@ -6,6 +7,7 @@ export function Header() {
         <nav className="space-x-4 hidden md:flex">
           <a href="/" className="hover:underline">Home</a>
           <a href="/projects" className="hover:underline">Projects</a>
+          <a href="/resume" className="hover:underline">Resume</a>
           <a href="/about" className="hover:underline">About</a>
           <a href="/contact" className="hover:underline">Contact</a>
           <a href="/toolbox" className="hover:underline">Toolbox</a>
